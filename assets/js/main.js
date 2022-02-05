@@ -54,7 +54,7 @@
 		}
 
 	// Nav.
-		var $nav = $header.children('nav'),
+		var $nav = $header.children('nav:not(.no-middle)'),
 			$nav_li = $nav.find('li');
 
 		// Add "middle" alignment classes if we're dealing with an even number of items.
